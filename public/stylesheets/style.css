@@ -1,0 +1,69 @@
+body {
+  padding: 0px 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: #483D8B;
+}
+
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: salmon;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+
+
+.btn {
+  text-align: center;
+}
+
+.message-card {
+  width: 70%;
+  border-radius: 10px;
+  background-color: #AFEEEE;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+section {
+  margin: auto;
+  width: 50%;
+}
+
+header {
+  text-align: center;
+}
+
+h2 {
+  color: #483D8B;
+}
+
+.form-container {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.form-container *{
+  display: block;
+  margin: 20px;
+  width: 100%;
+  padding: 10px;
+  border-color: lightcoral;
+  border-style: none;
+  border-radius: 10px;
+}

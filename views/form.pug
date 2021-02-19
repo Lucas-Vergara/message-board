@@ -1,0 +1,11 @@
+extends layout 
+
+block content 
+  header 
+    h1= 'Confesiones de la Vida'
+  main
+    form(action="/new", method="post" class='form-container') 
+      input(type="text", placeholder='Título', name='title', id='title')
+      textarea(name="description", cols="50", rows='4', placeholder='Ponga su confesión acá')
+      input(type="text", placeholder='Nombre de usuario', name='username', id='username')
+      button(type='submit', id='submit-btn' class='btn')= 'Publicar' 
