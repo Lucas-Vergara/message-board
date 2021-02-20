@@ -1,0 +1,1 @@
+Message Board asignment for "The Odin Project" website curribulum.
